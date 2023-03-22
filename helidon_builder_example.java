@@ -7,9 +7,11 @@ import java.lang.System;
 import example.model.NameAndDescriptionAndComments;
 import example.model.DefaultNameAndDescriptionAndComments;
 
+// run: `jbang helidon_builder_example.java`
+// build: `jbang export local helidon_builder_example.java`
+
 public class helidon_builder_example {
-    
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         NameAndDescriptionAndComments target =
         DefaultNameAndDescriptionAndComments.builder()
                 .name("world")
